@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+  crossorigin="anonymous"
+/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    body{
+      font-family: 'Montserrat', sans-serif;
+      background-color: hsl(240, 78%, 98%);
+    }
+    input{padding: 15px 30px; margin: 20PX; height: 140px;}
+    .btn:hover{
+      background-color: transparent;
+      border: 2px solid hsl(228, 45%, 44%);
+      color: black
+    }
+    .attribution { font-size: 14px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="text-center">
+      <h2 class="text-center fw-bold m-5">Our Pricing</h2>
+      <div class="d-flex justify-content-center align-items-center">
+        <h2 class="text-secondary m-2">Annually</h2>
+        <div class="form-check form-switch form-check-reverse checks">
+          <input class="form-check-input" type="checkbox"  >
+        </div>
+        <h2 class="text-secondary m-2">Monthly</h2>
+      </div>
+      
+    </div>
+    <div class="row my-5 g-0 align-items-center justify-content-center">
+      <div class="col-8 col-lg-4 col-xl-3">
+        <div class="card border-0">
+          <div class="card-body text-center py-4">
+            <h2 class="card-title text-secondary fw-bold ">Basic</h2>
+            <p class="display-3 my-4 text-dark fw-bold">
+              $19.90
+            </p>
+            <hr>
+            <p class="lead card-subtitle">500 GB storage</p>
+            <hr>
+            <p class="lead card-subtitle">2 users Allowed </p>
+            <hr>
+            <p class="lead card-subtitle">Send upto 3GB </p>
+            <hr>
+           <a href="#" class="btn btn-primary btn-lg mt-3">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div  class="col-9 col-lg-4  col-xl-3 ">
+        <div style="background-color: hsl(236, 72%, 79%) " class="card border-primary border-0">
+          <div class="card-body text-center py-4">
+            <h2 class="card-title text-light fw-bold ">Professional</h2>
+            <p class="display-3 my-4  fw-bold text-light">
+              $24.99
+            </p>
+            <hr style="color: white">
+            <p class="lead card-subtitle text-light">1 TB storage</p>
+            <hr style="color: white">
+            <p class="lead card-subtitle text-light">5 users Allowed </p>
+            <hr style="color: white">
+            <p class="lead card-subtitle text-light">Send upto 10 GB </p>
+            <hr style="color: white">
+           <a href="#" class="btn btn-primary btn-lg mt-3 text-light">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-8 col-lg-4 col-xl-3">
+        <div class="card border-0">
+          <div class="card-body text-center py-4">
+            <h2 class="card-title text-secondary fw-bold ">Master</h2>
+            <p class="display-3 my-4 text-dark fw-bold">
+              $39.90
+            </p>
+            <hr>
+            <p class="lead card-subtitle">2 TB storage</p>
+            <hr>
+            <p class="lead card-subtitle">10 users Allowed </p>
+            <hr>
+            <p class="lead card-subtitle">Send upto 20 GB </p>
+            <hr>
+           <a href="#" class="btn btn-primary btn-lg mt-3">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Subhi-c">Subhi-c</a>.
+  </div>
+</body>
+</html>
